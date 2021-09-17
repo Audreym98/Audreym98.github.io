@@ -1,0 +1,110 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "Molly Seidel's training 16 weeks before tokyo marathon bronze medal",
+  "width": 800,
+  "height": 300,
+  "padding": 10,
+
+  "config": {
+    "axis": {
+      "domain": false,
+      "labelFontSize": 12,
+      "labelFontWeight": "bold",
+      "tickSize": 0
+    }
+  },
+  "title": "Seidel's Tokyo 2021 Marathon Training",
+  "data": [{
+    "name": "Seidel_Data",
+    "url": "data/molly-seidel-mileage.csv",
+    "format": {"type": "csv", "parse": {"mileage": "number", "date": "date"}}
+  }],
+  "scales": [
+    {
+      "name": "x",
+      "type": "time",
+      "domain": {"data": "Seidel_Data", "field": "date"},
+      "range": "width",
+      "nice": true,
+      "round": true
+    },
+    {
+      "name": "y",
+      "type": "linear",
+      "domain": {"data": "Seidel_Data", "field": "mileage"},
+      "range": "height",
+      "nice": true,
+      "zero": false,
+      "round": true
+    },
+    {
+      "name": "align",
+      "type": "ordinal",
+      "domain": ["left", "right", "top", "bottom"],
+      "range": ["right", "left", "center", "center"]
+    },
+    {
+      "name": "base",
+      "type": "ordinal",
+      "domain": ["left", "right", "top", "bottom"],
+      "range": ["middle", "middle", "bottom", "top"]
+    },
+    {
+      "name": "dx",
+      "type": "ordinal",
+      "domain": ["left", "right", "top", "bottom"],
+      "range": [-7, 6, 0, 0]
+    },
+    {
+      "name": "dy",
+      "type": "ordinal",
+      "domain": ["left", "right", "top", "bottom"],
+      "range": [1, 1, -5, 6]
+    }
+  ],
+
+  "axes": [
+    {
+      "orient": "bottom",
+      "scale": "x",
+      "tickCount": 8,
+      "grid": true,
+      "title": "Date"
+    },
+    {
+      "orient": "left",
+      "scale": "y",
+      "grid": true,
+      "title": "Daily Mileage (mi)"
+    }
+  ],
+  "marks": [
+    {
+      "type": "line",
+      "from": {"data": "Seidel_Data"},
+      "encode": {
+        "enter": {
+          "interpolate": {"value": "cardinal"},
+          "x": {"scale": "x", "field": "date"},
+          "y": {"scale": "y", "field": "mileage"},
+          "stroke": {"value": "#1f78b4"},
+          "strokeWidth": {"value": 3}
+        }
+      }
+    },
+    {
+      "type": "symbol",
+      "from": {"data": "Seidel_Data"},
+      "encode": {
+        "enter": {
+          "x": {"scale": "x", "field": "date"},
+          "y": {"scale": "y", "field": "mileage"},
+          "fill": {"value": "#fff"},
+          "stroke": {"value": "#000"},
+          "strokeWidth": {"value": 1},
+          "size": {"value": 30}
+        }
+      }
+    }
+  ]
+}

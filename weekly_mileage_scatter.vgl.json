@@ -1,0 +1,108 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 350,
+  "height": 200,
+  "padding": 10,
+  "data": {
+    "name": "Seidel_Data",
+    "url": "data/molly-seidel-mileage.csv",
+    "format": {
+      "type": "csv",
+      "parse": {
+        "mileage": "number",
+        "date": "date"
+      }
+    }
+  },
+  "title": "Weekly Mileage Totals",
+  "layer": [
+    {
+      "encoding": {
+        "x": {
+          "field": "week",
+          "type": "ordinal",
+          "title": "Week of Marathon Build-Up"
+        },
+        "y": {
+          "field": "weekly_mileage",
+          "type": "quantitative",
+          "title": "Weekly Mileage (mi)",
+          "axis": {"tickCount": 8},
+          "scale": {"zero": false}
+        }
+      },
+      "mark": {
+        "type": "line",
+        "point": {
+          "filled": false,
+          "fill": "white"
+        }
+      }
+    },
+    {
+      "mark": "rule",
+      "encoding": {
+        "y": {"field": "weekly_mileage", "aggregate": "average"},
+        "size": {"value": 2},
+        "color": {"value": "orange"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "color": "orange",
+        "x": "width",
+        "align": "right",
+        "y": -5
+      },
+      "encoding": {
+        "text": {
+          "aggregate": "average",
+          "field": "weekly_mileage",
+          "type": "quantitative",
+          "format": ".2f"}
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "color": "orange",
+        "x": "width",
+        "align": "right",
+        "y": -5,
+        "x": 265
+      },
+      "encoding": {
+        "text": {"value":  "avg weekly mileage: "}
+      }
+    }
+  ],
+  "transform": [
+    {
+      "calculate": "day(datum.date) == 5",
+      "as": "sundays"
+    },
+    {
+      "window": [
+        {
+          "op": "sum",
+          "field": "sundays",
+          "as": "week"
+        }
+      ],
+      "sort": "date"
+    },
+    {
+      "aggregate": [
+        {
+          "op": "sum",
+          "field": "mileage",
+          "as": "weekly_mileage"
+        }
+      ],
+      "groupby": [
+        "week"
+      ]
+    }
+  ]
+}

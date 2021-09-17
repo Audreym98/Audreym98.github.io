@@ -1,0 +1,24 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 350,
+  "height": 150,
+  "padding": 10,
+  "data": {
+    "name": "Seidel_Data",
+    "url": "data/molly-seidel-mileage.csv",
+    "format": {"type": "csv", "parse": {"mileage": "number", "date": "date"}}
+  },
+  "title": "Frequency of Daily Mileage",
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "bin": {"step": 2},
+      "field": "mileage",
+      "title": "Daily Mileage (mi)"
+    },
+    "y": {
+      "aggregate": "count",
+      "title": "Num of Days"
+    }
+  }
+}

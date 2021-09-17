@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Seidel Training</title>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+    <h2> A Visualization of Molly Seidel's Marathon Training 16 Weeks Before Winning an Olympic Bronze Medal</h2>
+</div>
+<div class="row">
+    <div class="column">
+        <img src="data/seidel-image.jpg" alt="">
+    </div>
+    <div class="column">
+        <h4>Hypothesis:</h4>
+        <p>Elite marathon training requires
+            consistent daily and weekly mileage during the months prior
+            to a peak performance.</p>
+    </div>
+</div>
+<p></p>
+<div class="container">
+    <div class="vis_scatter" id="vis_scatter"></div>
+</div>
+<p></p>
+<div class="container">
+    <div class="vis_hist" id="vis_hist"></div>
+    <div class="vis_hist_2" id="vis_hist_2"></div>
+</div>
+
+<p style="font-size:12px">
+    &nbsp;&nbsp; Data collected from: <a href="https://www.strava.com/pros/16553663">https://www.strava.com/pros/16553663</a>
+</p>
+
+<script>
+    // display scatter plot
+    const spec_scatter = "daily_mileage_scatter.vg.json";
+    vegaEmbed("#vis_scatter", spec_scatter)
+        // result.view provides access to the Vega View API
+        .then(result => console.log(result))
+        .catch(console.warn);
+    // display a histogram
+    const spec_hist = "daily_mileage_hist.vgl.json";
+    vegaEmbed("#vis_hist", spec_hist)
+        // result.view provides access to the Vega View API
+        .then(result => console.log(result))
+        .catch(console.warn);
+    const spec_hist_2 = "weekly_mileage_scatter.vgl.json";
+    vegaEmbed("#vis_hist_2", spec_hist_2)
+        // result.view provides access to the Vega View API
+        .then(result => console.log(result))
+        .catch(console.warn);
+</script>
+</body>
