@@ -70,7 +70,7 @@
         "x": "width",
         "align": "right",
         "y": -5,
-        "x": 265
+        "x": 315
       },
       "encoding": {
         "text": {"value":  "avg weekly mileage: "}
@@ -80,13 +80,13 @@
   "transform": [
     {
       "calculate": "day(datum.date) == 5",
-      "as": "sundays"
+      "as": "start_of_week"
     },
     {
       "window": [
         {
           "op": "sum",
-          "field": "sundays",
+          "field": "start_of_week",
           "as": "week"
         }
       ],

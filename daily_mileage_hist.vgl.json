@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 350,
-  "height": 150,
+  "height": 200,
   "padding": 10,
   "data": {
     "name": "Seidel_Data",
@@ -18,7 +18,7 @@
     },
     "y": {
       "aggregate": "count",
-      "title": "Num of Days"
+      "title": "Number of Days"
     }
   }
 }
