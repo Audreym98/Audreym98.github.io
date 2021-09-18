@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 200,
-  "height": 150,
-  "padding": 10,
+  "height": 120,
+  "padding": 5,
   "data": {
     "name": "Seidel_Data",
     "url": "data/molly-seidel-mileage.csv",

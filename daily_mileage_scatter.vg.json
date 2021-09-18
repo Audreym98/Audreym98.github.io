@@ -3,7 +3,7 @@
   "description": "Molly Seidel's training 16 weeks before tokyo marathon bronze medal",
   "width": 500,
   "height": 200,
-  "padding": 10,
+  "padding": 5,
 
   "config": {
     "axis": {
