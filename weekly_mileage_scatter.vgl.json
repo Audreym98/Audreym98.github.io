@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 200,
+  "width": 250,
   "height": 150,
   "padding": 5,
   "data": {
@@ -70,7 +70,7 @@
         "x": "width",
         "align": "right",
         "y": -5,
-        "x": 165
+        "x": 215
       },
       "encoding": {
         "text": {"value":  "avg weekly mileage: "}
