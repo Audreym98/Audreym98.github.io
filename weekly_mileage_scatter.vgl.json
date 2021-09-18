@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 200,
-  "height": 120,
+  "height": 80,
   "padding": 5,
   "data": {
     "name": "Seidel_Data",

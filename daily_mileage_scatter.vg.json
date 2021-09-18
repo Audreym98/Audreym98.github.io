@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "description": "Molly Seidel's training 16 weeks before tokyo marathon bronze medal",
   "width": 500,
-  "height": 150,
+  "height": 80,
   "padding": 5,
 
   "config": {
