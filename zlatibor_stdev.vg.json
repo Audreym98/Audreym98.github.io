@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "description": "A contour plot of the Maungawhau volcano in New Zealand.",
-  "width": 400,
+  "description": "A terrain complexity contour plot of Zlatibor in Serbia.",
+  "width": 350,
 
   "signals": [
     {
