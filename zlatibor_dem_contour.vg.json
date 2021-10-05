@@ -1,0 +1,93 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "A contour plot of the Maungawhau volcano in New Zealand.",
+  "width": 500,
+
+  "signals": [
+    {
+      "name": "grid",
+      "init": "data('zlatibor_dem')[0]"
+    },
+    {
+      "name": "height",
+      "update": "round(grid.height * width / grid.width)"
+    },
+    {
+      "name": "smooth", "value": true,
+      "bind": {"input": "radio", "options": [true, false]}
+    },
+    {
+      "name": "levels", "value": 10,
+      "bind": {"input": "range", "min": 5, "max": 15, "step": 1}
+    },
+    {
+      "name": "stop", "value": 1200
+    },
+    {
+      "name": "start", "value": 800
+    },
+    {
+      "name": "step",
+      "update": "(stop - start) / levels"
+    }
+  ],
+  "data": [
+    {
+      "name": "zlatibor_dem",
+      "url": "data/zlatibor_dem.json"
+    },
+    {
+      "name": "contours",
+      "source": "zlatibor_dem",
+      "transform": [
+        {
+          "type": "isocontour",
+          "scale": {"expr": "width / datum.width"},
+          "smooth": {"signal": "smooth"},
+          "thresholds": {"signal": "sequence(start, stop, step)"}
+        }
+      ]
+    }
+  ],
+
+  "scales": [
+    {
+      "name": "color",
+      "type": "quantize",
+      "domain": {"signal": "[start, stop]"},
+      "range": {"scheme": "darkblue", "count": {"signal": "levels"}}
+    }
+  ],
+
+  "marks": [
+    {
+      "type": "path",
+      "from": {"data": "contours"},
+      "encode": {
+        "enter": {
+          "stroke": {"value": "#ccc"},
+          "strokeWidth": {"value": 1},
+          "fill": {"scale": "color", "field": "contour.value"}
+        }
+      },
+      "transform": [
+        {
+          "type": "geopath",
+          "field": "datum.contour"
+        }
+      ]
+    }
+  ],
+  "title": {"text":  "DEM"},
+  "legends": [
+    {
+      "fill": "color",
+      "type": "gradient",
+      "title": "DEM",
+      "titleFontSize": 12,
+      "titlePadding": 4,
+      "gradientLength": {"signal": "height - 16"}
+    }
+  ]
+
+}

@@ -1,0 +1,90 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "A contour plot of the Maungawhau volcano in New Zealand.",
+  "width": 500,
+
+  "signals": [
+    {
+      "name": "grid",
+      "init": "data('zlatibor_stdev')[0]"
+    },
+    {
+      "name": "height",
+      "update": "round(grid.height * width / grid.width)"
+    },
+    {
+      "name": "smooth", "value": true,
+      "bind": {"input": "radio", "options": [true, false]}
+    },
+    {
+      "name": "levels", "value": 7,
+      "bind": {"input": "range", "min": 4, "max": 10, "step": 1}
+    },
+    {
+      "name": "stop", "value": 18
+    },
+    {
+      "name": "step",
+      "update": "stop / levels"
+    }
+  ],
+
+  "data": [
+    {
+      "name": "zlatibor_stdev",
+      "url": "data/zlatibor_stdev.json"
+    },
+    {
+      "name": "contours",
+      "source": "zlatibor_stdev",
+      "transform": [
+        {
+          "type": "isocontour",
+          "scale": {"expr": "width / datum.width"},
+          "smooth": {"signal": "smooth"},
+          "thresholds": {"signal": "sequence(0, stop, step)"}
+        }
+      ]
+    }
+  ],
+
+  "scales": [
+    {
+      "name": "color",
+      "type": "quantize",
+      "domain": {"signal": "[0, stop]"},
+      "range": {"scheme": "redyellowblue", "count": {"signal": "levels"}}
+    }
+  ],
+
+  "marks": [
+    {
+      "type": "path",
+      "from": {"data": "contours"},
+      "encode": {
+        "update": {
+          "stroke": {"value": "#ccc"},
+          "strokeWidth": {"value": 1},
+          "fill": {"scale": "color", "field": "contour.value"}
+        }
+      },
+      "transform": [
+        {
+          "type": "geopath",
+          "field": "datum.contour"
+        }
+      ]
+    }
+  ],
+  "title": {"text":  "Terrain Complexity"},
+  "legends": [
+    {
+      "fill": "color",
+      "type": "gradient",
+      "title": "STDEV (m)",
+      "titleFontSize": 12,
+      "titlePadding": 4,
+      "gradientLength": {"signal": "height - 16"}
+    }
+  ]
+}

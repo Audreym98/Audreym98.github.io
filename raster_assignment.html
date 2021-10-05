@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Zlatibor Raster</title>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+  <h3> Zlatibor Topography</h3>
+</div>
+<div class="row">
+    <b style="font-size:16px">Hypothesis:</b>
+    <p style="font-size:16px">Zlatibor, one of the most popular tourist towns in Serbia, will have widely varied elevation
+    and terrain to allow for a variety of activities such as hiking steep hills to shopping downtown.</p>
+</div>
+<p></p>
+<div class="container">
+  <div class="vis_dem" id="vis_dem"></div>
+  <div class="vis_stdev" id="vis_stdev"></div>
+</div>
+
+<p></p>
+<p style="font-size:12px">
+  &nbsp;&nbsp; Data collected from: <a href="https://geomorphometry.org/zlatibor/">https://geomorphometry.org/zlatibor/</a>
+</p>
+
+<script>
+  // display scatter plot
+  const spec_dem = "zlatibor_dem_contour.vg.json";
+  vegaEmbed("#vis_dem", spec_dem)
+          // result.view provides access to the Vega View API
+          .then(result => console.log(result))
+          .catch(console.warn);
+
+  const spec_stdev = "zlatibor_stdev.vg.json";
+  vegaEmbed("#vis_stdev", spec_stdev)
+          // result.view provides access to the Vega View API
+          .then(result => console.log(result))
+          .catch(console.warn);
+</script>
+</body>
