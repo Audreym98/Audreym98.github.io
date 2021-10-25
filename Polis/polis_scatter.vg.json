@@ -1,0 +1,107 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "A basic scatter plot example depicting automobile statistics.",
+  "width": 250,
+  "height": 230,
+  "padding": 5,
+
+  "data": [
+    {
+      "name": "polis",
+      "url": "data/polis_basic.json",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "datum['Area']>0 && datum['staseis']>0"
+        }
+      ]
+    },
+    {
+      "name": "trend",
+      "source": "polis",
+      "transform": [
+        {
+          "type": "regression",
+          "method": "linear",
+          "extent": {
+            "signal": "domain('x')"
+          },
+          "x": "Area",
+          "y": "staseis",
+          "as": [
+            "u",
+            "v"
+          ]
+        }
+      ]
+    }
+  ],
+
+  "scales": [
+    {
+      "name": "x",
+      "type": "linear",
+      "round": true,
+      "nice": true,
+      "zero": false,
+      "domain": {"data": "polis", "field": "Area"},
+      "range": "width"
+    },
+    {
+      "name": "y",
+      "type": "linear",
+      "round": true,
+      "nice": true,
+      "zero": false,
+      "domain": {"data": "polis", "field": "staseis"},
+      "range": "height"
+    }
+  ],
+
+  "axes": [
+    {
+      "scale": "x",
+      "grid": true,
+      "domain": false,
+      "orient": "bottom",
+      "tickCount": 5,
+      "title": "Area"
+    },
+    {
+      "scale": "y",
+      "grid": true,
+      "domain": false,
+      "orient": "left",
+      "titlePadding": 5,
+      "title": "Staseis"
+    }
+  ],
+  "marks": [
+    {
+      "name": "marks",
+      "type": "symbol",
+      "from": {"data": "polis"},
+      "encode": {
+        "enter": {
+          "x": {"scale": "x", "field": "Area"},
+          "y": {"scale": "y", "field": "staseis"},
+          "fill": {"value": "steelblue"},
+          "stroke": {"value": "steelblue"},
+          "strokeWidth": {"value": 1.3},
+          "size": {"value": 20}
+        }
+      }
+    },
+    {
+      "type": "line",
+      "from": {"data": "trend"},
+      "encode": {
+        "enter": {
+          "x": {"scale": "x", "field": "u"},
+          "y": {"scale": "y", "field": "v"},
+          "stroke": {"value": "firebrick"}
+        }
+      }
+    }
+  ]
+}
