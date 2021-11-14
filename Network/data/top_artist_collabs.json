@@ -1,0 +1,1199 @@
+{
+  "nodes": [
+    {
+      "name": "lil wayne",
+      "group": "hip-hop"
+    },
+    {
+      "name": "ludacris",
+      "group": "hip-hop"
+    },
+    {
+      "name": "rihanna",
+      "group": "pop"
+    },
+    {
+      "name": "t-pain",
+      "group": "hip-hop"
+    },
+    {
+      "name": "kanye west",
+      "group": "hip-hop"
+    },
+    {
+      "name": "nelly",
+      "group": "hip-hop"
+    },
+    {
+      "name": "jay-z",
+      "group": "hip-hop"
+    },
+    {
+      "name": "drake",
+      "group": "hip-hop"
+    },
+    {
+      "name": "puff daddy",
+      "group": "hip-hop"
+    },
+    {
+      "name": "akon",
+      "group": "R&B"
+    },
+    {
+      "name": "50 cent",
+      "group": "hip-hop"
+    },
+    {
+      "name": "lil jon",
+      "group": "hip-hop"
+    },
+    {
+      "name": "justin timberlake",
+      "group": "pop"
+    },
+    {
+      "name": "nicki minaj",
+      "group": "hip-hop"
+    },
+    {
+      "name": "ja rule",
+      "group": "hip-hop"
+    },
+    {
+      "name": "ciara",
+      "group": "pop"
+    },
+    {
+      "name": "pitbull",
+      "group": "hip-hop"
+    },
+    {
+      "name": "snoop dogg",
+      "group": "hip-hop"
+    },
+    {
+      "name": "usher",
+      "group": "R&B"
+    },
+    {
+      "name": "eminem",
+      "group": "hip-hop"
+    },
+    {
+      "name": "beyonce",
+      "group": "pop"
+    },
+    {
+      "name": "flo rida",
+      "group": "hip-hop"
+    },
+    {
+      "name": "t.i.",
+      "group": "hip-hop"
+    },
+    {
+      "name": "jennifer lopez",
+      "group": "pop"
+    },
+    {
+      "name": "ne-yo",
+      "group": "R&B"
+    },
+    {
+      "name": "chris brown",
+      "group": "R&B"
+    },
+    {
+      "name": "david guetta",
+      "group": "dance"
+    },
+    {
+      "name": "mase",
+      "group": "hip-hop"
+    },
+    {
+      "name": "pharrell",
+      "group": "R&B"
+    },
+    {
+      "name": "timbaland",
+      "group": "hip-hop"
+    },
+    {
+      "name": "p. diddy",
+      "group": "hip-hop"
+    },
+    {
+      "name": "ke$ha",
+      "group": "pop"
+    },
+    {
+      "name": "r. kelly",
+      "group": "R&B"
+    },
+    {
+      "name": "ariana grande",
+      "group": "pop"
+    },
+    {
+      "name": "justin bieber",
+      "group": "pop"
+    },
+    {
+      "name": "bruno mars",
+      "group": "pop"
+    },
+    {
+      "name": "ashanti",
+      "group": "R&B"
+    },
+    {
+      "name": "missy elliott",
+      "group": "hip-hop"
+    },
+    {
+      "name": "mariah carey",
+      "group": "pop"
+    },
+    {
+      "name": "sean paul",
+      "group": "reggae"
+    },
+    {
+      "name": "busta rhymes",
+      "group": "hip-hop"
+    },
+    {
+      "name": "eve",
+      "group": "pop"
+    },
+    {
+      "name": "wiz khalifa",
+      "group": "hip-hop"
+    },
+    {
+      "name": "jamie foxx",
+      "group": "R&B"
+    },
+    {
+      "name": "christina aguilera",
+      "group": "pop"
+    },
+    {
+      "name": "fabolous",
+      "group": "hip-hop"
+    },
+    {
+      "name": "b.o.b",
+      "group": "hip-hop"
+    },
+    {
+      "name": "iggy azalea",
+      "group": "hip-hop"
+    },
+    {
+      "name": "gwen stefani",
+      "group": "pop"
+    },
+    {
+      "name": "dr. dre",
+      "group": "hip-hop"
+    },
+    {
+      "name": "faith evans",
+      "group": "R&B"
+    },
+    {
+      "name": "tim mcgraw",
+      "group": "country"
+    },
+    {
+      "name": "missy \"misdemeanor\" elliott",
+      "group": "hip-hop"
+    },
+    {
+      "name": "bow wow",
+      "group": "hip-hop"
+    },
+    {
+      "name": "keyshia cole",
+      "group": "R&B"
+    },
+    {
+      "name": "jeremih",
+      "group": "R&B"
+    },
+    {
+      "name": "britney spears",
+      "group": "pop"
+    },
+    {
+      "name": "the east side boyz",
+      "group": "hip-hop"
+    },
+    {
+      "name": "ll cool j",
+      "group": "hip-hop"
+    },
+    {
+      "name": "alicia keys",
+      "group": "R&B"
+    },
+    {
+      "name": "katy perry",
+      "group": "pop"
+    },
+    {
+      "name": "prince",
+      "group": "pop"
+    },
+    {
+      "name": "will.i.am",
+      "group": "hip-hop"
+    },
+    {
+      "name": "ying yang twins",
+      "group": "hip-hop"
+    },
+    {
+      "name": "sia",
+      "group": "pop"
+    },
+    {
+      "name": "joe",
+      "group": "R&B"
+    },
+    {
+      "name": "nas",
+      "group": "hip-hop"
+    },
+    {
+      "name": "total",
+      "group": "hip-hop"
+    },
+    {
+      "name": "no doubt",
+      "group": "rock"
+    },
+    {
+      "name": "jay sean",
+      "group": "pop"
+    },
+    {
+      "name": "dru hill",
+      "group": "R&B"
+    },
+    {
+      "name": "keri hilson",
+      "group": "R&B"
+    },
+    {
+      "name": "montell jordan",
+      "group": "R&B"
+    },
+    {
+      "name": "trey songz",
+      "group": "R&B"
+    },
+    {
+      "name": "lady gaga",
+      "group": "pop"
+    },
+    {
+      "name": "3oh!3",
+      "group": "pop"
+    },
+    {
+      "name": "cam'ron",
+      "group": "hip-hop"
+    },
+    {
+      "name": "master p",
+      "group": "hip-hop"
+    },
+    {
+      "name": "enrique iglesias",
+      "group": "pop"
+    },
+    {
+      "name": "diddy",
+      "group": "hip-hop"
+    },
+    {
+      "name": "the notorious b.i.g.",
+      "group": "hip-hop"
+    },
+    {
+      "name": "far*east movement",
+      "group": "dance"
+    },
+    {
+      "name": "112",
+      "group": "R&B"
+    },
+    {
+      "name": "mario winans",
+      "group": "R&B"
+    },
+    {
+      "name": "shakira",
+      "group": "pop"
+    },
+    {
+      "name": "nelly furtado",
+      "group": "pop"
+    },
+    {
+      "name": "maroon 5",
+      "group": "pop"
+    },
+    {
+      "name": "cobra starship",
+      "group": "pop"
+    },
+    {
+      "name": "chamillionaire",
+      "group": "hip-hop"
+    },
+    {
+      "name": "mystikal",
+      "group": "hip-hop"
+    },
+    {
+      "name": "murphy lee",
+      "group": "hip-hop"
+    },
+    {
+      "name": "faith hill",
+      "group": "country"
+    },
+    {
+      "name": "madonna",
+      "group": "pop"
+    },
+    {
+      "name": "lil' mo",
+      "group": "hip-hop"
+    },
+    {
+      "name": "ali",
+      "group": "alternative"
+    },
+    {
+      "name": "young jeezy",
+      "group": "hip-hop"
+    },
+    {
+      "name": "nate dogg",
+      "group": "hip-hop"
+    }
+  ],
+  "links": [
+    {
+      "source": 8,
+      "target": 27,
+      "value": 4
+    },
+    {
+      "source": 51,
+      "target": 91,
+      "value": 2
+    },
+    {
+      "source": 8,
+      "target": 50,
+      "value": 2
+    },
+    {
+      "source": 8,
+      "target": 82,
+      "value": 1
+    },
+    {
+      "source": 80,
+      "target": 8,
+      "value": 2
+    },
+    {
+      "source": 8,
+      "target": 80,
+      "value": 2
+    },
+    {
+      "source": 27,
+      "target": 67,
+      "value": 1
+    },
+    {
+      "source": 72,
+      "target": 77,
+      "value": 2
+    },
+    {
+      "source": 27,
+      "target": 8,
+      "value": 4
+    },
+    {
+      "source": 67,
+      "target": 37,
+      "value": 1
+    },
+    {
+      "source": 50,
+      "target": 8,
+      "value": 2
+    },
+    {
+      "source": 38,
+      "target": 6,
+      "value": 1
+    },
+    {
+      "source": 8,
+      "target": 32,
+      "value": 1
+    },
+    {
+      "source": 52,
+      "target": 41,
+      "value": 1
+    },
+    {
+      "source": 52,
+      "target": 66,
+      "value": 1
+    },
+    {
+      "source": 38,
+      "target": 65,
+      "value": 1
+    },
+    {
+      "source": 65,
+      "target": 89,
+      "value": 1
+    },
+    {
+      "source": 14,
+      "target": 93,
+      "value": 1
+    },
+    {
+      "source": 32,
+      "target": 6,
+      "value": 1
+    },
+    {
+      "source": 41,
+      "target": 48,
+      "value": 2
+    },
+    {
+      "source": 23,
+      "target": 14,
+      "value": 2
+    },
+    {
+      "source": 14,
+      "target": 36,
+      "value": 4
+    },
+    {
+      "source": 30,
+      "target": 18,
+      "value": 1
+    },
+    {
+      "source": 23,
+      "target": 66,
+      "value": 1
+    },
+    {
+      "source": 30,
+      "target": 83,
+      "value": 2
+    },
+    {
+      "source": 41,
+      "target": 59,
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 89,
+      "value": 1
+    },
+    {
+      "source": 5,
+      "target": 90,
+      "value": 2
+    },
+    {
+      "source": 5,
+      "target": 94,
+      "value": 2
+    },
+    {
+      "source": 23,
+      "target": 58,
+      "value": 2
+    },
+    {
+      "source": 52,
+      "target": 1,
+      "value": 1
+    },
+    {
+      "source": 17,
+      "target": 28,
+      "value": 2
+    },
+    {
+      "source": 10,
+      "target": 96,
+      "value": 1
+    },
+    {
+      "source": 40,
+      "target": 38,
+      "value": 1
+    },
+    {
+      "source": 45,
+      "target": 93,
+      "value": 1
+    },
+    {
+      "source": 20,
+      "target": 6,
+      "value": 2
+    },
+    {
+      "source": 11,
+      "target": 57,
+      "value": 2
+    },
+    {
+      "source": 11,
+      "target": 63,
+      "value": 2
+    },
+    {
+      "source": 5,
+      "target": 30,
+      "value": 1
+    },
+    {
+      "source": 28,
+      "target": 6,
+      "value": 1
+    },
+    {
+      "source": 20,
+      "target": 39,
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 17,
+      "value": 1
+    },
+    {
+      "source": 4,
+      "target": 43,
+      "value": 2
+    },
+    {
+      "source": 18,
+      "target": 1,
+      "value": 1
+    },
+    {
+      "source": 18,
+      "target": 11,
+      "value": 2
+    },
+    {
+      "source": 63,
+      "target": 11,
+      "value": 2
+    },
+    {
+      "source": 63,
+      "target": 57,
+      "value": 1
+    },
+    {
+      "source": 83,
+      "target": 30,
+      "value": 2
+    },
+    {
+      "source": 18,
+      "target": 59,
+      "value": 1
+    },
+    {
+      "source": 5,
+      "target": 51,
+      "value": 1
+    },
+    {
+      "source": 14,
+      "target": 32,
+      "value": 1
+    },
+    {
+      "source": 15,
+      "target": 37,
+      "value": 2
+    },
+    {
+      "source": 11,
+      "target": 1,
+      "value": 1
+    },
+    {
+      "source": 11,
+      "target": 18,
+      "value": 2
+    },
+    {
+      "source": 22,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 48,
+      "target": 41,
+      "value": 2
+    },
+    {
+      "source": 15,
+      "target": 1,
+      "value": 1
+    },
+    {
+      "source": 37,
+      "target": 15,
+      "value": 2
+    },
+    {
+      "source": 53,
+      "target": 15,
+      "value": 1
+    },
+    {
+      "source": 95,
+      "target": 9,
+      "value": 1
+    },
+    {
+      "source": 43,
+      "target": 1,
+      "value": 1
+    },
+    {
+      "source": 19,
+      "target": 96,
+      "value": 1
+    },
+    {
+      "source": 58,
+      "target": 23,
+      "value": 2
+    },
+    {
+      "source": 85,
+      "target": 29,
+      "value": 2
+    },
+    {
+      "source": 39,
+      "target": 54,
+      "value": 1
+    },
+    {
+      "source": 15,
+      "target": 88,
+      "value": 1
+    },
+    {
+      "source": 1,
+      "target": 28,
+      "value": 1
+    },
+    {
+      "source": 9,
+      "target": 19,
+      "value": 1
+    },
+    {
+      "source": 12,
+      "target": 22,
+      "value": 2
+    },
+    {
+      "source": 9,
+      "target": 17,
+      "value": 1
+    },
+    {
+      "source": 53,
+      "target": 25,
+      "value": 1
+    },
+    {
+      "source": 48,
+      "target": 9,
+      "value": 1
+    },
+    {
+      "source": 2,
+      "target": 39,
+      "value": 1
+    },
+    {
+      "source": 20,
+      "target": 84,
+      "value": 1
+    },
+    {
+      "source": 79,
+      "target": 54,
+      "value": 1
+    },
+    {
+      "source": 29,
+      "target": 12,
+      "value": 1
+    },
+    {
+      "source": 29,
+      "target": 85,
+      "value": 2
+    },
+    {
+      "source": 2,
+      "target": 6,
+      "value": 2
+    },
+    {
+      "source": 45,
+      "target": 24,
+      "value": 1
+    },
+    {
+      "source": 29,
+      "target": 71,
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 9,
+      "value": 1
+    },
+    {
+      "source": 54,
+      "target": 37,
+      "value": 1
+    },
+    {
+      "source": 10,
+      "target": 12,
+      "value": 1
+    },
+    {
+      "source": 10,
+      "target": 29,
+      "value": 1
+    },
+    {
+      "source": 4,
+      "target": 3,
+      "value": 1
+    },
+    {
+      "source": 25,
+      "target": 3,
+      "value": 2
+    },
+    {
+      "source": 2,
+      "target": 24,
+      "value": 1
+    },
+    {
+      "source": 21,
+      "target": 3,
+      "value": 1
+    },
+    {
+      "source": 18,
+      "target": 95,
+      "value": 1
+    },
+    {
+      "source": 92,
+      "target": 12,
+      "value": 1
+    },
+    {
+      "source": 21,
+      "target": 62,
+      "value": 1
+    },
+    {
+      "source": 6,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 6,
+      "target": 4,
+      "value": 2
+    },
+    {
+      "source": 6,
+      "target": 22,
+      "value": 1
+    },
+    {
+      "source": 3,
+      "target": 0,
+      "value": 2
+    },
+    {
+      "source": 0,
+      "target": 3,
+      "value": 2
+    },
+    {
+      "source": 22,
+      "target": 2,
+      "value": 1
+    },
+    {
+      "source": 19,
+      "target": 10,
+      "value": 1
+    },
+    {
+      "source": 19,
+      "target": 49,
+      "value": 2
+    },
+    {
+      "source": 22,
+      "target": 12,
+      "value": 2
+    },
+    {
+      "source": 21,
+      "target": 31,
+      "value": 1
+    },
+    {
+      "source": 43,
+      "target": 3,
+      "value": 1
+    },
+    {
+      "source": 15,
+      "target": 12,
+      "value": 1
+    },
+    {
+      "source": 71,
+      "target": 4,
+      "value": 1
+    },
+    {
+      "source": 71,
+      "target": 24,
+      "value": 1
+    },
+    {
+      "source": 69,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 6,
+      "target": 2,
+      "value": 2
+    },
+    {
+      "source": 7,
+      "target": 0,
+      "value": 5
+    },
+    {
+      "source": 7,
+      "target": 4,
+      "value": 1
+    },
+    {
+      "source": 7,
+      "target": 19,
+      "value": 1
+    },
+    {
+      "source": 26,
+      "target": 9,
+      "value": 1
+    },
+    {
+      "source": 69,
+      "target": 11,
+      "value": 1
+    },
+    {
+      "source": 69,
+      "target": 39,
+      "value": 1
+    },
+    {
+      "source": 31,
+      "target": 75,
+      "value": 2
+    },
+    {
+      "source": 34,
+      "target": 1,
+      "value": 1
+    },
+    {
+      "source": 73,
+      "target": 45,
+      "value": 1
+    },
+    {
+      "source": 46,
+      "target": 35,
+      "value": 1
+    },
+    {
+      "source": 74,
+      "target": 20,
+      "value": 1
+    },
+    {
+      "source": 18,
+      "target": 62,
+      "value": 1
+    },
+    {
+      "source": 75,
+      "target": 31,
+      "value": 2
+    },
+    {
+      "source": 60,
+      "target": 17,
+      "value": 1
+    },
+    {
+      "source": 19,
+      "target": 2,
+      "value": 2
+    },
+    {
+      "source": 78,
+      "target": 16,
+      "value": 1
+    },
+    {
+      "source": 18,
+      "target": 16,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 7,
+      "value": 5
+    },
+    {
+      "source": 21,
+      "target": 26,
+      "value": 1
+    },
+    {
+      "source": 73,
+      "target": 13,
+      "value": 1
+    },
+    {
+      "source": 2,
+      "target": 7,
+      "value": 2
+    },
+    {
+      "source": 78,
+      "target": 1,
+      "value": 1
+    },
+    {
+      "source": 16,
+      "target": 3,
+      "value": 1
+    },
+    {
+      "source": 49,
+      "target": 19,
+      "value": 2
+    },
+    {
+      "source": 60,
+      "target": 4,
+      "value": 1
+    },
+    {
+      "source": 23,
+      "target": 16,
+      "value": 1
+    },
+    {
+      "source": 25,
+      "target": 0,
+      "value": 2
+    },
+    {
+      "source": 25,
+      "target": 40,
+      "value": 1
+    },
+    {
+      "source": 55,
+      "target": 10,
+      "value": 1
+    },
+    {
+      "source": 2,
+      "target": 56,
+      "value": 1
+    },
+    {
+      "source": 56,
+      "target": 13,
+      "value": 1
+    },
+    {
+      "source": 56,
+      "target": 31,
+      "value": 1
+    },
+    {
+      "source": 16,
+      "target": 24,
+      "value": 2
+    },
+    {
+      "source": 86,
+      "target": 45,
+      "value": 1
+    },
+    {
+      "source": 46,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 26,
+      "target": 18,
+      "value": 1
+    },
+    {
+      "source": 17,
+      "target": 35,
+      "value": 1
+    },
+    {
+      "source": 17,
+      "target": 42,
+      "value": 1
+    },
+    {
+      "source": 7,
+      "target": 13,
+      "value": 1
+    },
+    {
+      "source": 7,
+      "target": 2,
+      "value": 2
+    },
+    {
+      "source": 3,
+      "target": 42,
+      "value": 1
+    },
+    {
+      "source": 92,
+      "target": 13,
+      "value": 1
+    },
+    {
+      "source": 21,
+      "target": 64,
+      "value": 1
+    },
+    {
+      "source": 86,
+      "target": 42,
+      "value": 1
+    },
+    {
+      "source": 26,
+      "target": 64,
+      "value": 1
+    },
+    {
+      "source": 34,
+      "target": 13,
+      "value": 1
+    },
+    {
+      "source": 62,
+      "target": 56,
+      "value": 1
+    },
+    {
+      "source": 16,
+      "target": 45,
+      "value": 1
+    },
+    {
+      "source": 22,
+      "target": 28,
+      "value": 1
+    },
+    {
+      "source": 16,
+      "target": 31,
+      "value": 1
+    },
+    {
+      "source": 33,
+      "target": 47,
+      "value": 1
+    },
+    {
+      "source": 33,
+      "target": 13,
+      "value": 1
+    },
+    {
+      "source": 2,
+      "target": 4,
+      "value": 1
+    },
+    {
+      "source": 26,
+      "target": 13,
+      "value": 1
+    }
+  ]
+}

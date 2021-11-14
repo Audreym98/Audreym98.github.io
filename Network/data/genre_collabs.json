@@ -1,0 +1,646 @@
+[
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "country",
+"target_genre": "country"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "R&B"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "R&B"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "R&B",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "R&B",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "pop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "R&B"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "pop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "pop",
+"target_genre": "R&B"
+},
+{
+"source_genre": "R&B",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "R&B",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "pop",
+"target_genre": "pop"
+},
+{
+"source_genre": "pop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "R&B"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "R&B"
+},
+{
+"source_genre": "pop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "R&B"
+},
+{
+"source_genre": "pop",
+"target_genre": "R&B"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "alternative"
+},
+{
+"source_genre": "pop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "R&B"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "pop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "pop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "R&B",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "pop",
+"target_genre": "reggae"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "R&B"
+},
+{
+"source_genre": "R&B",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "R&B",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "R&B",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "R&B",
+"target_genre": "R&B"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "country"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "R&B"
+},
+{
+"source_genre": "pop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "R&B"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "pop",
+"target_genre": "pop"
+},
+{
+"source_genre": "pop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "pop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "pop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "R&B"
+},
+{
+"source_genre": "R&B",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "pop"
+},
+{
+"source_genre": "pop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "reggae",
+"target_genre": "R&B"
+},
+{
+"source_genre": "pop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "R&B"
+},
+{
+"source_genre": "R&B",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "pop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "R&B",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "R&B"
+},
+{
+"source_genre": "pop",
+"target_genre": "R&B"
+},
+{
+"source_genre": "pop",
+"target_genre": "reggae"
+},
+{
+"source_genre": "pop",
+"target_genre": "pop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "R&B"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "pop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "pop"
+},
+{
+"source_genre": "pop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "R&B"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "R&B"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "R&B"
+},
+{
+"source_genre": "R&B",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "pop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "R&B",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "pop",
+"target_genre": "R&B"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "R&B",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "pop",
+"target_genre": "pop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "pop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "pop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "pop"
+},
+{
+"source_genre": "R&B",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "pop",
+"target_genre": "pop"
+},
+{
+"source_genre": "R&B",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "R&B",
+"target_genre": "R&B"
+},
+{
+"source_genre": "pop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "pop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "dance",
+"target_genre": "R&B"
+},
+{
+"source_genre": "pop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "pop",
+"target_genre": "reggae"
+},
+{
+"source_genre": "pop",
+"target_genre": "pop"
+},
+{
+"source_genre": "pop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "R&B",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "pop"
+},
+{
+"source_genre": "pop",
+"target_genre": "pop"
+},
+{
+"source_genre": "R&B",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "pop",
+"target_genre": "pop"
+},
+{
+"source_genre": "pop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "pop"
+},
+{
+"source_genre": "pop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "R&B",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "dance"
+},
+{
+"source_genre": "R&B",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "pop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "pop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "pop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "pop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "R&B",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "R&B",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "R&B",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "pop",
+"target_genre": "pop"
+},
+{
+"source_genre": "pop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "pop",
+"target_genre": "pop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "R&B"
+},
+{
+"source_genre": "pop",
+"target_genre": "pop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "dance",
+"target_genre": "R&B"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "pop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "pop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "pop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "pop"
+},
+{
+"source_genre": "pop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "dance",
+"target_genre": "pop"
+},
+{
+"source_genre": "pop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "pop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "pop"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "R&B"
+},
+{
+"source_genre": "hip-hop",
+"target_genre": "pop"
+},
+{
+"source_genre": "pop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "pop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "pop",
+"target_genre": "hip-hop"
+},
+{
+"source_genre": "dance",
+"target_genre": "hip-hop"
+}
+]

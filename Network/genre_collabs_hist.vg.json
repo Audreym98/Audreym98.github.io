@@ -1,0 +1,112 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "A basic bar chart example, with value labels shown upon mouse hover.",
+  "width": 600,
+  "height": 150,
+  "padding": 5,
+  "title": "Genre Collaborations",
+
+  "data": [
+    {
+      "name": "genre",
+      "url": "data/genre_collabs.json",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "datum['source_genre'] == source_genre"
+        },
+        {
+          "type": "aggregate",
+          "groupby": ["target_genre"]
+        }
+      ]
+    }
+  ],
+
+  "signals": [
+    {
+      "name": "tooltip",
+      "value": {},
+      "on": [
+        {"events": "rect:mouseover", "update": "datum"},
+        {"events": "rect:mouseout",  "update": "{}"}
+      ]
+    },
+    {
+      "name": "source_genre",
+      "value": "hip-hop",
+      "bind": {
+        "input": "select",
+        "options": [
+          "hip-hop",
+          "pop",
+          "R&B",
+          "dance",
+          "reggae",
+          "country"
+        ]
+      }
+    }
+  ],
+
+  "scales": [
+    {
+      "name": "xscale",
+      "type": "band",
+      "domain": {"data": "genre", "field": "target_genre"},
+      "range": "width",
+      "padding": 0.05,
+      "round": true,
+      "align": 0.5
+    },
+    {
+      "name": "yscale",
+      "domain": {"data": "genre", "field": "count"},
+      "nice": true,
+      "range": "height"
+    }
+  ],
+
+  "axes": [
+    { "orient": "bottom", "scale": "xscale", "title": "Target Genre"},
+    { "orient": "left", "scale": "yscale", "title": "Num of Collaborations"}
+  ],
+
+  "marks": [
+    {
+      "type": "rect",
+      "from": {"data":"genre"},
+      "encode": {
+        "update": {
+          "fill": {"value": "#1f77b4"},
+          "x": {"scale": "xscale", "field": "target_genre"},
+          "width": {"scale": "xscale", "band": 1},
+          "y": {"scale": "yscale", "field": "count"},
+          "y2": {"scale": "yscale", "value": 0}
+        },
+        "hover": {
+          "fill": {"value": "red"}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "encode": {
+        "enter": {
+          "align": {"value": "center"},
+          "baseline": {"value": "bottom"},
+          "fill": {"value": "#333"}
+        },
+        "update": {
+          "x": {"scale": "xscale", "signal": "tooltip.target_genre", "band": 0.5},
+          "y": {"scale": "yscale", "signal": "tooltip.count", "offset": -2},
+          "text": {"signal": "tooltip.count"},
+          "fillOpacity": [
+            {"test": "datum === tooltip", "value": 0},
+            {"value": 1}
+          ]
+        }
+      }
+    }
+  ]
+}
