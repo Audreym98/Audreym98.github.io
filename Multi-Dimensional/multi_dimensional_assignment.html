@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Happiness Ratings</title>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+    <h3>Contributing Factors to Happiness in 158 Countries (2015)</h3>
+</div>
+<div class="row">
+    <div class="column">
+        <b style="font-size:16px">Hypothesis:</b>
+        <p style="font-size:14px">Underdeveloped countries such as those in Sub-Saharan Africa will have
+        lower scores across all contributing factors as compared to more developed countries in
+        Western Europe.</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="vis_multi" id="vis_multi"></div>
+</div>
+
+<p style="font-size:12px">
+    &nbsp;&nbsp; Data collected from: <a href="https://www.kaggle.com/unsdsn/world-happiness/version/2">https://github.com/steventang/billboard-top-collaborations/blob/master/data/100_connections.json</a>
+</p>
+
+<script>
+    // display scatter plot
+    const spec_multi = "happiness_plots.vg.json";
+    vegaEmbed("#vis_multi", spec_multi)
+        // result.view provides access to the Vega View API
+        .then(result => console.log(result))
+        .catch(console.warn);
+</script>
+</body>
