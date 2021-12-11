@@ -1,0 +1,101 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "A basic bar chart example, with value labels shown upon mouse hover.",
+  "width": 450,
+  "height": 200,
+  "padding": 5,
+  "title": "Subfamilies that have 0% Confidence with AluY",
+  "data": [
+    {
+      "name": "table",
+      "values": [
+        {"category": "AluYj4", "amount": 138},
+        {"category": "AluYk2", "amount": 60},
+        {"category": "AluYm1", "amount": 50},
+        {"category": "AluYk3", "amount": 42},
+        {"category": "AluYf1", "amount": 20},
+        {"category": "AluYh3", "amount": 18},
+        {"category": "AluYg6", "amount": 4},
+        {"category": "AluYi6", "amount": 4},
+        {"category": "AluYa5", "amount": 3},
+        {"category": "AluYc", "amount": 2},
+        {"category": "AluYh7", "amount": 2},
+        {"category": "AluSc8", "amount": 1},
+        {"category": "AluYe5", "amount": 1}
+      ]
+    }
+  ],
+
+  "signals": [
+    {
+      "name": "tooltip",
+      "value": {},
+      "on": [
+        {"events": "rect:mouseover", "update": "datum"},
+        {"events": "rect:mouseout",  "update": "{}"}
+      ]
+    }
+  ],
+
+  "scales": [
+    {
+      "name": "xscale",
+      "type": "band",
+      "domain": {"data": "table", "field": "category"},
+      "range": "width",
+      "padding": 0.05,
+      "round": true
+    },
+    {
+      "name": "yscale",
+      "domain": {"data": "table", "field": "amount"},
+      "nice": true,
+      "range": "height"
+    }
+  ],
+
+  "axes": [
+    { "orient": "bottom", "scale": "xscale", "title": "Subfamily" },
+    { "orient": "left", "scale": "yscale", "title": "Num of Pairs" }
+  ],
+
+  "marks": [
+    {
+      "type": "rect",
+      "from": {"data":"table"},
+      "encode": {
+        "enter": {
+          "x": {"scale": "xscale", "field": "category"},
+          "width": {"scale": "xscale", "band": 1},
+          "y": {"scale": "yscale", "field": "amount"},
+          "y2": {"scale": "yscale", "value": 0}
+        },
+        "update": {
+          "fill": {"value": "#3182bd"}
+        },
+        "hover": {
+          "fill": {"value": "#6baed6"}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "encode": {
+        "enter": {
+          "align": {"value": "center"},
+          "baseline": {"value": "bottom"},
+          "fill": {"value": "#333"}
+        },
+        "update": {
+          "x": {"scale": "xscale", "signal": "tooltip.category", "band": 0.5},
+          "y": {"scale": "yscale", "signal": "tooltip.amount", "offset": -2},
+          "text": {"signal": "tooltip.amount"},
+          "fillOpacity": [
+            {"test": "datum === tooltip", "value": 0},
+            {"value": 1}
+          ]
+        }
+      }
+    }
+  ]
+}

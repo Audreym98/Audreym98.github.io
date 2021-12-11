@@ -1,0 +1,914 @@
+[
+{
+"source_type": "AluY",
+"conf": 0.0
+},
+{
+"source_type": "AluY",
+"conf": 0.0
+},
+{
+"source_type": "AluY",
+"conf": 0.0
+},
+{
+"source_type": "AluY",
+"conf": 0.0
+},
+{
+"source_type": "AluY",
+"conf": 0.0
+},
+{
+"source_type": "AluY",
+"conf": 0.0
+},
+{
+"source_type": "AluY",
+"conf": 0.0
+},
+{
+"source_type": "AluY",
+"conf": 0.0
+},
+{
+"source_type": "AluY",
+"conf": 0.0
+},
+{
+"source_type": "AluY",
+"conf": 0.0
+},
+{
+"source_type": "AluY",
+"conf": 0.0
+},
+{
+"source_type": "AluY",
+"conf": 0.0
+},
+{
+"source_type": "AluY",
+"conf": 0.0
+},
+{
+"source_type": "AluY",
+"conf": 0.99
+},
+{
+"source_type": "AluY",
+"conf": 0.985
+},
+{
+"source_type": "AluY",
+"conf": 0.952
+},
+{
+"source_type": "AluY",
+"conf": 0.939
+},
+{
+"source_type": "AluY",
+"conf": 0.994
+},
+{
+"source_type": "AluY",
+"conf": 0.994
+},
+{
+"source_type": "AluS",
+"conf": 0.263
+},
+{
+"source_type": "AluS",
+"conf": 0.263
+},
+{
+"source_type": "AluS",
+"conf": 0.272
+},
+{
+"source_type": "AluS",
+"conf": 0.54
+},
+{
+"source_type": "AluS",
+"conf": 0.983
+},
+{
+"source_type": "AluS",
+"conf": 0.918
+},
+{
+"source_type": "AluS",
+"conf": 0.809
+},
+{
+"source_type": "AluS",
+"conf": 0.932
+},
+{
+"source_type": "AluS",
+"conf": 0.946
+},
+{
+"source_type": "AluS",
+"conf": 0.916
+},
+{
+"source_type": "AluS",
+"conf": 0.723
+},
+{
+"source_type": "AluS",
+"conf": 0.835
+},
+{
+"source_type": "AluS",
+"conf": 0.548
+},
+{
+"source_type": "AluS",
+"conf": 0.19
+},
+{
+"source_type": "AluS",
+"conf": 0.754
+},
+{
+"source_type": "AluS",
+"conf": 0.693
+},
+{
+"source_type": "AluS",
+"conf": 0.988
+},
+{
+"source_type": "AluS",
+"conf": 0.944
+},
+{
+"source_type": "AluS",
+"conf": 0.884
+},
+{
+"source_type": "AluS",
+"conf": 0.946
+},
+{
+"source_type": "AluS",
+"conf": 0.516
+},
+{
+"source_type": "AluS",
+"conf": 0.605
+},
+{
+"source_type": "AluS",
+"conf": 0.823
+},
+{
+"source_type": "AluS",
+"conf": 0.596
+},
+{
+"source_type": "AluS",
+"conf": 0.884
+},
+{
+"source_type": "AluS",
+"conf": 0.85
+},
+{
+"source_type": "AluS",
+"conf": 0.941
+},
+{
+"source_type": "AluS",
+"conf": 0.711
+},
+{
+"source_type": "AluS",
+"conf": 0.744
+},
+{
+"source_type": "AluS",
+"conf": 0.906
+},
+{
+"source_type": "AluS",
+"conf": 0.906
+},
+{
+"source_type": "AluS",
+"conf": 0.862
+},
+{
+"source_type": "AluS",
+"conf": 0.978
+},
+{
+"source_type": "AluS",
+"conf": 0.888
+},
+{
+"source_type": "AluS",
+"conf": 0.978
+},
+{
+"source_type": "AluS",
+"conf": 0.969
+},
+{
+"source_type": "AluS",
+"conf": 0.987
+},
+{
+"source_type": "AluS",
+"conf": 0.987
+},
+{
+"source_type": "AluS",
+"conf": 0.75
+},
+{
+"source_type": "AluS",
+"conf": 0.852
+},
+{
+"source_type": "AluS",
+"conf": 0.403
+},
+{
+"source_type": "AluS",
+"conf": 0.651
+},
+{
+"source_type": "AluS",
+"conf": 0.981
+},
+{
+"source_type": "AluS",
+"conf": 0.976
+},
+{
+"source_type": "AluS",
+"conf": 0.761
+},
+{
+"source_type": "AluS",
+"conf": 0.824
+},
+{
+"source_type": "AluS",
+"conf": 0.97
+},
+{
+"source_type": "AluS",
+"conf": 0.901
+},
+{
+"source_type": "AluS",
+"conf": 0.993
+},
+{
+"source_type": "AluS",
+"conf": 0.992
+},
+{
+"source_type": "AluJ",
+"conf": 0.737
+},
+{
+"source_type": "AluJ",
+"conf": 0.638
+},
+{
+"source_type": "AluJ",
+"conf": 0.904
+},
+{
+"source_type": "AluJ",
+"conf": 0.752
+},
+{
+"source_type": "AluJ",
+"conf": 0.822
+},
+{
+"source_type": "AluJ",
+"conf": 0.703
+},
+{
+"source_type": "AluJ",
+"conf": 0.991
+},
+{
+"source_type": "AluS",
+"conf": 0.944
+},
+{
+"source_type": "AluJ",
+"conf": 0.991
+},
+{
+"source_type": "AluS",
+"conf": 0.982
+},
+{
+"source_type": "AluY",
+"conf": 0.995
+},
+{
+"source_type": "AluY",
+"conf": 0.987
+},
+{
+"source_type": "AluY",
+"conf": 0.358
+},
+{
+"source_type": "AluY",
+"conf": 0.99
+},
+{
+"source_type": "AluY",
+"conf": 0.867
+},
+{
+"source_type": "AluY",
+"conf": 0.829
+},
+{
+"source_type": "AluY",
+"conf": 0.761
+},
+{
+"source_type": "AluY",
+"conf": 0.413
+},
+{
+"source_type": "AluS",
+"conf": 0.851
+},
+{
+"source_type": "AluS",
+"conf": 0.933
+},
+{
+"source_type": "AluS",
+"conf": 0.93
+},
+{
+"source_type": "AluS",
+"conf": 0.932
+},
+{
+"source_type": "AluS",
+"conf": 0.86
+},
+{
+"source_type": "AluS",
+"conf": 0.884
+},
+{
+"source_type": "AluS",
+"conf": 0.99
+},
+{
+"source_type": "AluS",
+"conf": 0.981
+},
+{
+"source_type": "AluS",
+"conf": 0.982
+},
+{
+"source_type": "AluS",
+"conf": 0.918
+},
+{
+"source_type": "AluS",
+"conf": 0.459
+},
+{
+"source_type": "AluS",
+"conf": 0.733
+},
+{
+"source_type": "AluY",
+"conf": 0.979
+},
+{
+"source_type": "AluY",
+"conf": 0.897
+},
+{
+"source_type": "AluY",
+"conf": 0.747
+},
+{
+"source_type": "AluY",
+"conf": 0.89
+},
+{
+"source_type": "AluY",
+"conf": 0.913
+},
+{
+"source_type": "AluY",
+"conf": 0.965
+},
+{
+"source_type": "AluY",
+"conf": 0.892
+},
+{
+"source_type": "AluY",
+"conf": 0.955
+},
+{
+"source_type": "AluY",
+"conf": 0.904
+},
+{
+"source_type": "AluY",
+"conf": 0.771
+},
+{
+"source_type": "AluY",
+"conf": 0.922
+},
+{
+"source_type": "AluY",
+"conf": 0.562
+},
+{
+"source_type": "AluY",
+"conf": 0.675
+},
+{
+"source_type": "AluY",
+"conf": 0.94
+},
+{
+"source_type": "AluY",
+"conf": 0.514
+},
+{
+"source_type": "AluY",
+"conf": 0.843
+},
+{
+"source_type": "AluY",
+"conf": 0.841
+},
+{
+"source_type": "AluY",
+"conf": 0.757
+},
+{
+"source_type": "AluY",
+"conf": 0.868
+},
+{
+"source_type": "AluY",
+"conf": 0.885
+},
+{
+"source_type": "AluY",
+"conf": 0.841
+},
+{
+"source_type": "AluY",
+"conf": 0.994
+},
+{
+"source_type": "AluY",
+"conf": 0.987
+},
+{
+"source_type": "AluY",
+"conf": 0.916
+},
+{
+"source_type": "AluY",
+"conf": 0.781
+},
+{
+"source_type": "AluY",
+"conf": 0.294
+},
+{
+"source_type": "AluY",
+"conf": 0.885
+},
+{
+"source_type": "AluY",
+"conf": 0.843
+},
+{
+"source_type": "AluY",
+"conf": 0.894
+},
+{
+"source_type": "AluY",
+"conf": 0.905
+},
+{
+"source_type": "AluY",
+"conf": 0.79
+},
+{
+"source_type": "AluY",
+"conf": 0.923
+},
+{
+"source_type": "AluY",
+"conf": 0.916
+},
+{
+"source_type": "AluY",
+"conf": 0.8
+},
+{
+"source_type": "AluY",
+"conf": 0.987
+},
+{
+"source_type": "AluS",
+"conf": 0.861
+},
+{
+"source_type": "AluS",
+"conf": 0.858
+},
+{
+"source_type": "AluS",
+"conf": 0.951
+},
+{
+"source_type": "AluS",
+"conf": 0.891
+},
+{
+"source_type": "AluS",
+"conf": 0.993
+},
+{
+"source_type": "AluS",
+"conf": 0.992
+},
+{
+"source_type": "AluS",
+"conf": 0.993
+},
+{
+"source_type": "AluY",
+"conf": 0.988
+},
+{
+"source_type": "AluS",
+"conf": 0.993
+},
+{
+"source_type": "AluY",
+"conf": 0.981
+},
+{
+"source_type": "AluS",
+"conf": 0.993
+},
+{
+"source_type": "AluY",
+"conf": 0.994
+},
+{
+"source_type": "AluS",
+"conf": 0.993
+},
+{
+"source_type": "AluS",
+"conf": 0.994
+},
+{
+"source_type": "AluS",
+"conf": 0.993
+},
+{
+"source_type": "AluS",
+"conf": 0.994
+},
+{
+"source_type": "AluY",
+"conf": 0.995
+},
+{
+"source_type": "AluS",
+"conf": 0.988
+},
+{
+"source_type": "AluS",
+"conf": 0.944
+},
+{
+"source_type": "AluS",
+"conf": 0.983
+},
+{
+"source_type": "AluS",
+"conf": 0.982
+},
+{
+"source_type": "AluY",
+"conf": 0.984
+},
+{
+"source_type": "AluY",
+"conf": 0.8
+},
+{
+"source_type": "AluY",
+"conf": 0.19
+},
+{
+"source_type": "AluY",
+"conf": 0.971
+},
+{
+"source_type": "AluY",
+"conf": 0.925
+},
+{
+"source_type": "AluY",
+"conf": 0.985
+},
+{
+"source_type": "AluY",
+"conf": 0.981
+},
+{
+"source_type": "AluY",
+"conf": 0.625
+},
+{
+"source_type": "AluY",
+"conf": 0.307
+},
+{
+"source_type": "AluY",
+"conf": 0.686
+},
+{
+"source_type": "AluY",
+"conf": 0.326
+},
+{
+"source_type": "AluJ",
+"conf": 0.834
+},
+{
+"source_type": "AluJ",
+"conf": 0.843
+},
+{
+"source_type": "AluY",
+"conf": 0.995
+},
+{
+"source_type": "AluY",
+"conf": 0.994
+},
+{
+"source_type": "AluJ",
+"conf": 0.649
+},
+{
+"source_type": "AluJ",
+"conf": 0.758
+},
+{
+"source_type": "AluJ",
+"conf": 0.991
+},
+{
+"source_type": "AluJ",
+"conf": 0.984
+},
+{
+"source_type": "AluY",
+"conf": 0.971
+},
+{
+"source_type": "AluY",
+"conf": 0.964
+},
+{
+"source_type": "AluY",
+"conf": 0.882
+},
+{
+"source_type": "AluY",
+"conf": 0.8
+},
+{
+"source_type": "AluY",
+"conf": 0.981
+},
+{
+"source_type": "AluY",
+"conf": 0.52
+},
+{
+"source_type": "AluY",
+"conf": 0.701
+},
+{
+"source_type": "AluY",
+"conf": 0.973
+},
+{
+"source_type": "AluY",
+"conf": 0.75
+},
+{
+"source_type": "AluS",
+"conf": 0.985
+},
+{
+"source_type": "AluY",
+"conf": 0.937
+},
+{
+"source_type": "AluY",
+"conf": 0.809
+},
+{
+"source_type": "AluY",
+"conf": 0.978
+},
+{
+"source_type": "AluY",
+"conf": 0.989
+},
+{
+"source_type": "AluY",
+"conf": 0.978
+},
+{
+"source_type": "AluS",
+"conf": 0.942
+},
+{
+"source_type": "AluS",
+"conf": 0.941
+},
+{
+"source_type": "AluY",
+"conf": 0.934
+},
+{
+"source_type": "AluY",
+"conf": 0.9
+},
+{
+"source_type": "AluY",
+"conf": 0.913
+},
+{
+"source_type": "AluY",
+"conf": 0.868
+},
+{
+"source_type": "AluY",
+"conf": 0.994
+},
+{
+"source_type": "AluS",
+"conf": 0.916
+},
+{
+"source_type": "AluS",
+"conf": 0.85
+},
+{
+"source_type": "AluS",
+"conf": 0.914
+},
+{
+"source_type": "AluS",
+"conf": 0.891
+},
+{
+"source_type": "AluS",
+"conf": 0.867
+},
+{
+"source_type": "AluS",
+"conf": 0.924
+},
+{
+"source_type": "AluS",
+"conf": 0.988
+},
+{
+"source_type": "AluS",
+"conf": 0.995
+},
+{
+"source_type": "AluS",
+"conf": 0.978
+},
+{
+"source_type": "AluS",
+"conf": 0.995
+},
+{
+"source_type": "AluS",
+"conf": 0.975
+},
+{
+"source_type": "AluS",
+"conf": 0.979
+},
+{
+"source_type": "AluS",
+"conf": 0.994
+},
+{
+"source_type": "AluS",
+"conf": 0.971
+},
+{
+"source_type": "AluS",
+"conf": 0.988
+},
+{
+"source_type": "AluS",
+"conf": 0.993
+},
+{
+"source_type": "AluS",
+"conf": 0.969
+},
+{
+"source_type": "AluS",
+"conf": 0.993
+},
+{
+"source_type": "AluS",
+"conf": 0.958
+},
+{
+"source_type": "AluS",
+"conf": 0.987
+},
+{
+"source_type": "AluS",
+"conf": 0.978
+},
+{
+"source_type": "AluS",
+"conf": 0.993
+},
+{
+"source_type": "AluS",
+"conf": 0.969
+},
+{
+"source_type": "AluS",
+"conf": 0.971
+},
+{
+"source_type": "AluS",
+"conf": 0.995
+},
+{
+"source_type": "AluS",
+"conf": 0.985
+},
+{
+"source_type": "AluS",
+"conf": 0.97
+},
+{
+"source_type": "AluS",
+"conf": 0.929
+},
+{
+"source_type": "AluS",
+"conf": 0.985
+},
+{
+"source_type": "AluY",
+"conf": 0.995
+},
+{
+"source_type": "AluS",
+"conf": 0.995
+},
+{
+"source_type": "AluS",
+"conf": 0.971
+}
+]

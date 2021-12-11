@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Alu Subfamily Unreliability</title>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+    <h3>Unreliability Within Alu Subfamilies</h3>
+</div>
+
+<div class="row">
+        <b style="font-size:16px">Introduction:</b>
+        <p style="font-size:14px">The Alu transposable element family has been shown to have unreliability within
+        its current set of subfamilies during genome annotation. We are currently in the process of developing a method to identify which subfamilies are contributing
+        to this unreliability and when they should be merged. For subfamily pairs that have some
+            amount of unreliability, we compute a confidence value to represent how confident we are that these subfamilies
+            are distinguishable from each other, with a value of 0 being not at all distinguishable.</p>
+</div>
+<div class="row">
+    <b style="font-size:16px">Hypothesis:</b>
+    <p style="font-size:14px">Since some of this unreliability can be explained via point mutations, the younger AluY subfamily will
+    contribute the most to unreliability within the Alu family. Additionally, we expect that subfamily pairs with
+        a low confidence (<=50%) of being distinguishable will be within-type rather than between-type.
+    </p>
+</div>
+
+<div class="row">
+    <div class="column">
+        <div class="vis_network" id="vis_network"></div>
+    </div>
+    <div class="column">
+        <div style="float:right;" class="table_container">
+        <table>
+            <tr>
+                <th colspan="5">Num of Links, Conf < 1 </th>
+            </tr>
+            <tr>
+                <th colspan="5"><SPAN STYLE="font-size:80%">Target Alu Type</th>
+            </tr>
+            <tr>
+                <th rowspan="4"><SPAN STYLE="writing-mode: vertical-lr;
+                         -ms-writing-mode: tb-rl;
+                         transform: rotate(180deg);font-size:80%">Source Alu Type</SPAN></th>
+                <td>&nbsp;</td>
+                <td>AluY</td>
+                <td>AluJ</td>
+                <td>AluS</td>
+            </tr>
+            <tr>
+                <td>AluY</td>
+                <td>92</td>
+                <td>0</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>AluJ</td>
+                <td>0</td>
+                <td>12</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>AluS</td>
+                <td>7</td>
+                <td>2</td>
+                <td>106</td>
+            </tr>
+        </table>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="vis_hist" id="vis_hist"></div>
+    <div class="vis_box" id="vis_box"></div>
+</div>
+
+
+<p style="font-size:12px">
+    &nbsp;&nbsp; Data collected from research by Audrey Shingleton and Travis Wheeler, University of Montana</a>
+</p>
+
+<script>
+    // display scatter plot
+    const spec_network = "alu_graph.vg.json";
+    vegaEmbed("#vis_network", spec_network)
+        // result.view provides access to the Vega View API
+        .then(result => console.log(result))
+        .catch(console.warn);
+
+    const spec_hist = "aluY_hist.vg.json";
+    vegaEmbed("#vis_hist", spec_hist)
+        // result.view provides access to the Vega View API
+        .then(result => console.log(result))
+        .catch(console.warn);
+
+    const spec_box = "alu_box_plot.vg.json";
+    vegaEmbed("#vis_box", spec_box)
+        // result.view provides access to the Vega View API
+        .then(result => console.log(result))
+        .catch(console.warn);
+</script>
+</body>
